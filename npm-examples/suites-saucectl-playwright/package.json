@@ -1,0 +1,15 @@
+{
+  "name": "saucectl-playwright-example",
+  "version": "1.0.0",
+  "description": "Example running saucectl with playwright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test.sauce.us",
+    "test.local": "npx playwright test",
+    "test.sauce.us": "saucectl run --region us-west-1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.29.2",
+    "saucectl": "^0.119.0"
+  }
+}

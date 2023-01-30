@@ -1,0 +1,1 @@
+npx rimraf ./**/tsconfig.tsbuildinfo
